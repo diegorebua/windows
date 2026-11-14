@@ -1,19 +1,30 @@
-﻿# 🎮 Windows Gaming Optimizer
+# Windows Configuration
 
-Este script em PowerShell aplica as melhores otimizações de nível de sistema no Windows 11 para extrair o máximo de FPS e reduzir a latência (input lag) em jogos competitivos e pesados.
+Repositório de scripts e configurações para automatizar a instalação, personalização e otimização do Windows.
 
-## 🚀 O que o script faz?
+## Funcionalidades
 
-1. **Ativa o Plano de Alto Desempenho:** Impede que o processador reduza o clock desnecessariamente (Core Parking).
-2. **Ativa o HAGS (Hardware-Accelerated GPU Scheduling):** Passa o gerenciamento de memória para a placa de vídeo, desafogando o processador e aumentando o FPS.
-3. **Desativa o VBS (Virtualization-Based Security) e Isolamento de Núcleo:** Um dos maiores ladrões de FPS do Windows 11. Desativá-lo melhora massivamente os 1% lows (reduzindo travadinhas).
-4. **Desativa a Aceleração do Mouse:** Remove o *Enhance Pointer Precision* nativo do Windows para garantir 100% de precisão de hardware na sua mira.
-5. **Desativa o Game DVR:** Desliga a gravação de tela em segundo plano do Windows Xbox Game Bar, poupando processamento e disco.
+- **Instalação de aplicativos:** instalação automatizada de programas utilizando PowerShell e WinGet.
+- **Otimização de desempenho:** ajustes de sistema voltados à performance e jogos.
+- **Configurações do Windows:** personalização de recursos, serviços e preferências do sistema.
+- **Automação:** scripts para facilitar a configuração do ambiente após uma instalação limpa.
 
-## ⚙️ Como usar
+## Como utilizar
 
-1. Faça o download do arquivo Otimizar_Jogos.ps1.
-2. Clique com o botão direito sobre ele.
-3. Selecione **Executar com o PowerShell**.
-4. (Importante) Confirme a solicitação de Administrador se aparecer.
-5. **Reinicie o computador** após a execução para que as alterações de BIOS/Kernel (VBS e HAGS) entrem em vigor.
+1. Clone o repositório ou baixe os scripts desejados.
+2. Abra o PowerShell.
+3. Execute o script correspondente à configuração desejada.
+4. Reinicie o computador caso seja necessário.
+
+## Requisitos
+
+- Windows 11
+- PowerShell 5.1 ou superior
+- WinGet para instalação de aplicativos
+- Permissões de administrador quando necessárias
+
+## Observações
+
+Os scripts são independentes e podem ser executados conforme a necessidade. Algumas configurações podem alterar recursos de segurança ou exigir reinicialização.
+
+Recomenda-se revisar o conteúdo de cada script antes da execução.
